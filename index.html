@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+</head>
+
+<body>
+    <div id="nav">
+        <script src="./assets/components/_nav.js"></script>
+    </div>
+    <div id="home">
+        <script src="./assets/components/_home.js"></script>
+    </div>
+    <div id="about">
+        <script src="./assets/components/_about.js"></script>
+    </div>
+</body>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/script.js"></script>
+<script src="./assets/js/aos.js"></script>
+<script src="./assets/js/jquery-3.5.1.js"></script>
+<script>
+    function aos_init() {
+        AOS.init({
+             duration: 1000,
+             easing: "ease-in-out",
+             once: true
+        });
+   };
+   aos_init();
+</script>
+
+</html>
