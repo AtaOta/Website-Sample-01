@@ -82,6 +82,7 @@ home.innerHTML = `
             display: grid;
             grid-template-columns: auto auto auto ;
             background-color: #f2f9f8;
+            margin-top: 30px;
       }
       .grido{
             width: 400px;
