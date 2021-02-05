@@ -1,32 +1,32 @@
 let services = document.getElementById("Services");
 services.innerHTML = `
-<script src="https://kit.fontawesome.com/f7e95eaeba.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 <div class="service-container">
       <div class="service">
             <h1>Service</h1>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            <p class="container text-muted">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                   consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
                   fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div>
       <div class="service-flex-boxes">
             <div class="flex-box1  flex-boxes">
-                 <img alt="ball-img">
-                 <h5>Lorem Ipsum</h5>
+                  <img src="./assets/img/front/volleyball-ball-solid.svg" alt="ball" width="35px" height="35px" class="mt-4">
+                 <h5 class="mt-4">Lorem Ipsum</h5>
                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
             </div>
             <div class="flex-box2 flex-boxes">
-                  <img alt="paper-img">
-                  <h5>Lorem Ipsum</h5>
+                  <img src="./assets/img/front/file-solid.svg" alt="ball" width="35px" height="35px" class="mt-4">
+                  <h5 class="mt-4">Lorem Ipsum</h5>
                   <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
             </div>
             <div class="flex-box3 flex-boxes">
-                  <img alt="meter-img">
-                  <h5>Lorem Ipsum</h5>
+                  <img src="./assets/img/front/car-solid.svg" alt="ball" width="35px" height="35px" class="mt-4">
+                  <h5 class="mt-4">Lorem Ipsum</h5>
                   <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
             </div>
             <div class="flex-box4 flex-boxes">
-                  <img alt="earth-img">
-                  <h5>Lorem Ipsum</h5>
+                  <img src="./assets/img/front/globe-solid.svg" alt="ball" width="35px" height="35px" class="mt-4">
+                  <h5 class="mt-4">Lorem Ipsum</h5>
                   <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
             </div>
       </div>
@@ -54,6 +54,7 @@ services.innerHTML = `
       display: flex;
       flex-direction: row;
       justify-content: center;
+      color: #979797;
 }
 .flexboxes p{
       font-size: 15px;

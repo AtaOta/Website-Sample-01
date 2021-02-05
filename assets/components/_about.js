@@ -26,7 +26,7 @@ home.innerHTML = `
         </div>	
     </div>	
 </div>	
-<div class="grido-container">
+<div class="grido-container container">
     <div class="grido1 grido">
           <h1>01</h1>
           <h2> Lorem ipsum</h2>
@@ -90,7 +90,6 @@ home.innerHTML = `
             padding:10px;
             margin: auto;
             margin-top: 50px;
-            border: 2px solid black;
       }
       .grido h1{
             color: #1bac91;
@@ -103,5 +102,4 @@ home.innerHTML = `
             color: #aaaaaa;
             font-size: 15px;
       }
-
 </style> `;
