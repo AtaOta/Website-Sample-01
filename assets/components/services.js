@@ -41,7 +41,7 @@ services.innerHTML = `
       }
 .service-container .service-flex-boxes .flex-box1,.flex-box2,.flex-box3,.flex-box4{
       text-align: center;
-      width: 25%;
+      width: 20%;
       margin-left:10px;
       margin-right: 10px;
       height: 25vh;
@@ -53,6 +53,7 @@ services.innerHTML = `
 .service-flex-boxes{
       display: flex;
       flex-direction: row;
+      justify-content: center;
 }
 .flexboxes p{
       font-size: 15px;
@@ -64,6 +65,9 @@ services.innerHTML = `
 }
 .flexboxes:hover{
       box-shadow: 0 2px 29px 0 rgb(37 37 37 / 10%);
+}
+.flex-box1{
+      margin-left:30px;
 }
 </style>
 `
