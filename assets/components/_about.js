@@ -26,6 +26,38 @@ home.innerHTML = `
         </div>	
     </div>	
 </div>	
+<div class="grido-container">
+    <div class="grido1 grido">
+          <h1>01</h1>
+          <h2> Lorem ipsum</h2>
+          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+    </div>
+    <div class="grido2 grido">
+          <h1>02</h1>
+          <h2> Lorem ipsum</h2>
+          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+    </div>
+    <div class="grido3 grido">
+          <h1>03</h1>
+          <h2> Lorem ipsum</h2>
+          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+    </div>
+    <div class="grido4 grido">
+          <h1>04</h1>
+          <h2> Lorem ipsum</h2>
+          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+    </div>
+    <div class="grido5 grido">
+          <h1>05</h1>
+          <h2> Lorem ipsum</h2>
+          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+    </div>
+    <div class="grido6 grido">
+          <h1>06</h1>
+          <h2> Lorem ipsum</h2>
+          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+    </div>
+</div>
 <style>	
 .about-container{	
     justify-content: center;
@@ -45,4 +77,30 @@ home.innerHTML = `
 .about-heading-small p{
     grid-column: 2/-1;
 }
+ /* grid style  */
+ .grido-container{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            background-color: #f2f9f8;
+      }
+      .grido{
+            width: 400px;
+            height: 230px;
+            padding:10px;
+            margin: auto;
+            margin-top: 50px;
+            border: 2px solid black;
+      }
+      .grido h1{
+            color: #1bac91;
+            font-weight: 900px;
+      }
+      .grido h2{
+            color: #21413c;
+      }
+      .grido p{
+            color: #aaaaaa;
+            font-size: 15px;
+      }
+
 </style> `;
