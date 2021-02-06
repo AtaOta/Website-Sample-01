@@ -43,8 +43,6 @@ Contact.innerHTML=`
       }
       .contact2{
             display: block;
-            background-color: rgba(255, 255, 255, 0.658);
-            box-shadow: #6e6a6a 2px 2px 2px 2px;
       }
 </style>
 `
