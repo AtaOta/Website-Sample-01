@@ -7,7 +7,7 @@ contact.innerHTML=`
           <div class="details text-start">
                <div class="location mt-4" data-aos="fade-right">
                     <div class="part-head d-flex">
-                         <img src="./assets/img/front/map-marker.min.svg" width="17px" height="17px" class="m-2">
+                         <img src="./assets/img/front/map-marker.svg" width="17px" height="17px" class="m-2">
                          <h4>Location:</h4><br>
                     </div>
                     <div class="part-info text-start">
