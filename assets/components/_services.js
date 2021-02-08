@@ -56,9 +56,9 @@ services.innerHTML = `
       color: #979797;
 }
 .flexboxes p{
-      font-size: 15px;
-    line-height: 28px;
-    padding-top: 20px;
+      font-size: 5px;
+    /* line-height: 28px; */
+    /* padding-top: 20px; */
 }
 .service-container{
       background-color: #f2f9f8;
@@ -68,6 +68,9 @@ services.innerHTML = `
 }
 .flex-box1{
       margin-left:30px;
+}
+.service-container{
+      padding: 20px;
 }
 </style>
 `
