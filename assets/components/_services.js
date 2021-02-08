@@ -1,6 +1,5 @@
-let services = document.getElementById("Services");
+let services = document.getElementById("services");
 services.innerHTML = `
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 <div class="service-container">
       <div class="service">
             <h1>Service</h1>
