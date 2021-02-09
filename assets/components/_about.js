@@ -1,5 +1,5 @@
-const home = document.getElementById("about");
-home.innerHTML = `
+const about = document.getElementById("about");
+about.innerHTML = `
 <div class="about-container d-flex container" id="about-page">	
     <div class="img">	
         <img class="col-xl-11 col-lg-13 aos-init aos-animate" src="./assets/img/front/about-img.png">	

@@ -1,6 +1,6 @@
-let services = document.getElementById("services");
+const services = document.getElementById("services");
 services.innerHTML = `
-<div class="service-container">
+<div class="service-container mt-5 pt-5">
       <div class="service">
             <h1>Service</h1>
             <p class="container text-muted">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
