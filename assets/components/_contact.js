@@ -3,7 +3,7 @@ contact.innerHTML=`
 <div class="contact container text-center mt-5 pt-5">
      <h1  data-aos="fade-up">Contact</h1>
      <p data-aos="fade-up">The sorrows of a great advantage to raise up. Him, indeed, to the necessities of the flight of his is a result of something. Let there be consectetur velit. Anyone whom the one with greed. And no one has to prevent a receives the rest, for the. Because this man did flee from the duties in the advantage, we realize that this is a quas.</p>
-     <div class="location d-flex ">
+     <div class="location d-flex" id="location">
           <div class="details text-start">
                <div class="location mt-4" data-aos="fade-right">
                     <div class="part-head d-flex">

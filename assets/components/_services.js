@@ -1,8 +1,8 @@
 const services = document.getElementById("services");
 services.innerHTML = `
-<div class="service-container mt-5 pt-5">
+<div class="service-container mt-5 pt-5 container">
       <div class="service">
-            <h1>Service</h1>
+            <h1>Services</h1>
             <p class="container text-muted">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                   consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
                   fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -32,7 +32,7 @@ services.innerHTML = `
 </div>
 <style>
       .service-container {
-            margin-top: 30px;
+            margin-top: 3rem;
       }
 
       .service-container .service {
@@ -41,17 +41,17 @@ services.innerHTML = `
 .service-container .service-flex-boxes .flex-box1,.flex-box2,.flex-box3,.flex-box4{
       text-align: center;
       width: 20%;
-      margin-left:10px;
-      margin-right: 10px;
+      margin-left:1rem;
+      margin-right: 1rem;
       height: 25vh;
       border-radius: 15px;
       background-color: #fff;
       color: #444444;
-      margin-top: 30px;
+      margin-top: 3rem;
 }
 .service-flex-boxes{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       color: #979797;
 }
@@ -64,13 +64,13 @@ services.innerHTML = `
       background-color: #f2f9f8;
 }
 .flexboxes:hover{
-      box-shadow: 0 2px 29px 0 rgb(37 37 37 / 10%);
+      box-shadow: 0 2px 29px 0 #2525258a;
 }
 .flex-box1{
-      margin-left:30px;
+      margin-left:3rem;
 }
 .service-container{
-      padding: 20px;
+      padding: 1em;
 }
 </style>
 `
